@@ -8,5 +8,9 @@ if (eta < 18) {
   let diff = totalPrice * 20 / 100;
   totalPrice = totalPrice - diff;
 }
+else if (eta > 65) {
+  let diff = totalPrice * 40 / 100;
+  totalPrice = totalPrice - diff;
+}
 
 console.log(totalPrice);
