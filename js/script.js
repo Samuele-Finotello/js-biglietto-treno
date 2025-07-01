@@ -1,8 +1,7 @@
 const km = parseFloat(prompt('Quanti chilometri vuoi fare?'));
 const eta = parseInt(prompt('Quanti anni hai?'));
-let basePrice = 0.21;
 
-let totalPrice = basePrice * km;
+let totalPrice = 0.21 * km;
 
 if (eta < 18) {
   let diff = totalPrice * 20 / 100;
