@@ -13,4 +13,4 @@ else if (eta > 65) {
   totalPrice = totalPrice - diff;
 }
 
-console.log(totalPrice);
+console.log(totalPrice.toFixed(2));
